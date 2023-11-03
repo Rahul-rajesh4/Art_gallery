@@ -1,0 +1,26 @@
+#main2{
+
+    padding-top: 100px !important;
+    margin-top: 0%;
+    background-color: rgb(51, 51, 51);
+    height: 1000px;
+    width: 100%;
+    padding-bottom: 30%;
+
+
+}
+.name{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+.align{
+display: flex !important;
+}
+.row{
+
+    justify-content: center !important;
+    align-items: center !important;
+}
+.editcard{
+    max-width: 650px;
+}

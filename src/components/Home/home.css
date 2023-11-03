@@ -1,0 +1,103 @@
+/* .bodyy{
+    padding-left: 5%;
+    padding-right: 5%;
+} */
+.artimg{ 
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../Home/images/b1.jpg');
+    background-attachment: fixed !important;
+}
+
+.heddinggg{
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 15%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 100px;
+}
+.overlay{
+    height: 650px;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.4); 
+}
+@media only screen and (max-width: 1100px) {
+    .artimg{
+        height: 500px;
+    }
+    .overlay{
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .artimg{
+        height: 400px;
+    }
+    .overlay{
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .heddinggg{
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .heddinggg{
+        font-size: 40px;
+    }
+    .artimg{
+        height: 300px;
+    }
+    .overlay{
+        height: 300px;
+    }
+}
+
+.spacecard{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.textdesign{
+    
+    font-size: 70px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 5%;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+}
+@media only screen and (max-width: 360px) {
+    .textdesign{
+        font-size: 50px;
+    }
+}
+
+.container1{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../Home/images/scap.jpg');
+    background-attachment: fixed;
+}
+.hedding11{
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 13%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 760px) {
+    .container1{
+        height: 200px;
+    }
+}
